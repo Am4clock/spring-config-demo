@@ -1,0 +1,10 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Am4clock/spring-config.git #仓库地址
